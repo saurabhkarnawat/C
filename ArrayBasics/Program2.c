@@ -1,0 +1,25 @@
+// Find the Average of array elements
+
+#include<stdio.h>
+
+int main()
+{
+    int size=5;
+    int arr[size]={10,20,30,40,50};
+
+    int sum=0;
+
+    int i;
+
+    for(i=0;i<size;i++)
+    {
+        sum+=arr[i];
+    }
+
+    float avg= (float)sum /size;
+
+    printf("Average = %f",avg);
+
+    return 0;
+
+}
